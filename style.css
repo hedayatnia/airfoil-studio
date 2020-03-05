@@ -237,3 +237,8 @@ b {
   margin-top: 16px !important;
   display: inline-block;
 }
+
+.imagespacer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
