@@ -177,22 +177,32 @@ b {
   margin-bottom: 1em;
 }
 
-.currentthing {
+.currentthing{
   padding: 16px 16px;
   box-shadow: inset 0 0 0 2px #774ee0;
-  background-color: rgba(119, 78, 224, 0.06);
+  background-color: rgba(119,78,224,.06);
   border-radius: 6px;
   color: #3d4045;
 }
 
-.currentthing > a {
+.currentthing > a{
   color: #774ee0;
   text-decoration: none;
   text-underline-position: below;
   display: block;
   font-weight: 600;
-  margin-top: 8px;
+  margin-top: 8px;}
+
+
+.currentthing.covid{
+  background-color: rgba(255, 43, 0,.06);
+  box-shadow: inset 0 0 0 2px red
 }
+
+.currentthing.covid > a{
+  color: red !important;
+}
+
 
 .work-heading {
   padding-right: 8px;
