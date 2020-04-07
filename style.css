@@ -31,6 +31,23 @@ body a {
   display: flex;
 }
 
+.hiringsymbol{
+  background-color:blue;
+  color: white;
+  border-radius: 9999px;
+  font-size: 75%;
+  font-weight: 600;
+  padding: 4px;
+  padding-left: 7px;
+  padding-right: 9px;
+  margin-top:-4px;
+  text-decoration: none !important;
+}
+
+.hiringsymbol:hover{
+  color: lightgray !important;
+}
+
 .connectwithme {
   display: none;
 }
