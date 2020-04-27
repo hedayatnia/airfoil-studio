@@ -196,14 +196,14 @@ b {
 
 .currentthing{
   padding: 16px 16px;
-  box-shadow: inset 0 0 0 2px #774ee0;
-  background-color: rgba(119,78,224,.06);
+  box-shadow: inset 0 0 0 2px blue;
+  background-color: rgba(0,0,255,.06);
   border-radius: 6px;
   color: #3d4045;
 }
 
 .currentthing > a{
-  color: #774ee0;
+  color: blue;
   text-decoration: none;
   text-underline-position: below;
   display: block;
