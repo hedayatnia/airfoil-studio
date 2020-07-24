@@ -306,6 +306,8 @@ b {
 
 .teamitem{
   display: flex;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .teamitem > .illust > img {
@@ -324,6 +326,8 @@ margin-top: 0px;
   }
   .teamitem {
     flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 0px;
   }
   
 }
